@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		CC87A0582350588800267A5A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC87A0572350588800267A5A /* AppDelegate.swift */; };
 		CC87A05A2350588800267A5A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC87A0592350588800267A5A /* SceneDelegate.swift */; };
-		CC87A05C2350588800267A5A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC87A05B2350588800267A5A /* ContentView.swift */; };
 		CC87A05E2350588900267A5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC87A05D2350588900267A5A /* Assets.xcassets */; };
 		CC87A0612350588900267A5A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC87A0602350588900267A5A /* Preview Assets.xcassets */; };
 		CC87A0642350588900267A5A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC87A0622350588900267A5A /* LaunchScreen.storyboard */; };
+		CC87A06C2350616C00267A5A /* SearchShopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC87A06B2350616C00267A5A /* SearchShopView.swift */; };
+		CC87A06E2350628C00267A5A /* SearchShopBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC87A06D2350628C00267A5A /* SearchShopBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		CC87A0542350588800267A5A /* swiftui-combine-original-testapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "swiftui-combine-original-testapp.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC87A0572350588800267A5A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CC87A0592350588800267A5A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CC87A05B2350588800267A5A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CC87A05D2350588900267A5A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CC87A0602350588900267A5A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CC87A0632350588900267A5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CC87A0652350588900267A5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC87A06B2350616C00267A5A /* SearchShopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchShopView.swift; sourceTree = "<group>"; };
+		CC87A06D2350628C00267A5A /* SearchShopBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchShopBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +60,12 @@
 			children = (
 				CC87A0572350588800267A5A /* AppDelegate.swift */,
 				CC87A0592350588800267A5A /* SceneDelegate.swift */,
-				CC87A05B2350588800267A5A /* ContentView.swift */,
+				CC87A06B2350616C00267A5A /* SearchShopView.swift */,
 				CC87A05D2350588900267A5A /* Assets.xcassets */,
 				CC87A0622350588900267A5A /* LaunchScreen.storyboard */,
 				CC87A0652350588900267A5A /* Info.plist */,
 				CC87A05F2350588900267A5A /* Preview Content */,
+				CC87A06D2350628C00267A5A /* SearchShopBar.swift */,
 			);
 			path = "swiftui-combine-original-testapp";
 			sourceTree = "<group>";
@@ -148,7 +151,8 @@
 			files = (
 				CC87A0582350588800267A5A /* AppDelegate.swift in Sources */,
 				CC87A05A2350588800267A5A /* SceneDelegate.swift in Sources */,
-				CC87A05C2350588800267A5A /* ContentView.swift in Sources */,
+				CC87A06C2350616C00267A5A /* SearchShopView.swift in Sources */,
+				CC87A06E2350628C00267A5A /* SearchShopBar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
